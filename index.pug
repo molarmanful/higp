@@ -8,28 +8,137 @@ html
 
   body
 
-    .slide
-      .cont
-        h1 GAME_BREAKING
-        h2 A Presentation
-        hr
-        p Benjamin Pang
-        p Hacking in Global Perspective
-        p 2020
+    .slide.active: .cont
+      h1 GAME_BREAKING
+      h2 A Presentation
+      hr
+      p Benjamin Pang
+      p Hacking in Global Perspective 2020
 
-    .slide
-      .cont
-        h2 Contents
-        hr
-        ul
-          li Glitches/Exploits
-          li Mods/Cheats
-          li Scams
-          li Doxxing/Stream Sniping
-          li Punishment/Deterrence
+    .slide: .cont
+      p #[a(href='https://bennyboy.tech/higp') bennyboy.tech/higp]
+      p #[a(href='https://github.com/molarmanful/higp' target='_blank') github source]
+      p #[a(href='https://raw.githubusercontent.com/molarmanful/higp/gh-pages/LICENSE' target='_blank') mit license]
 
-    .slide
-      .cont
-        h2 
+    .slide: .cont
+      h2 Contents
+      hr
+      ul
+        li Glitches/Exploits
+        li Mods/Cheats
+        li Scams
+        li Doxxing/Stream Sniping
+        li Punishment/Deterrence
 
+    .slide.able: .cont
+      h2 Exploit: The Human Mind
+      img(src='./media/rps.jpg')
+
+    .slide.able: .cont
+      img(src='./media/melee.jpg')
+
+    .slide.able: .cont
+      h2 Physics Glitch: Wavedashing
+      img(src='./media/wavedash.gif')
+
+    .slide.able: .cont
+      video(autoplay loop)
+        source(src='./media/falcon.mp4')
+
+    .slide.able: .cont
+      h2 "Filthy Casuals"
+      img(src='./media/brawl.jpg')
+
+    .slide.able: .cont
+      h2 Mechanical Inspirations
+      img(src='./media/rivals.png')
+
+    .slide.able: .cont
+      h2 Legend of Zelda: Ocarina of Time in under 13min
+      |<iframe class='min' src="https://www.youtube.com/embed/lg5a2LfZDcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    .slide.able: .cont
+      img(src='./media/minecraft.jpg')
+
+    .slide.able: .cont
+      h2 2b2t: "The Oldest Anarchy Server in Minecraft"
+      img(src='./media/2b2t.png')
+
+    .slide.able: .cont
+      h2 Hack Client: Wurst
+      img(src='./media/wurst.png')
+
+    .slide.able: .cont
+      h2 SciCraft: "The Richest Server in Minecraft"
+      img(src='./media/scicraft.jpg')
+
+    .slide.able: .cont
+      img(src='./media/payday2.jpeg')
+
+    .slide.able: .cont
+      h2 Unofficial Mod: BigLobby
+      img(src='./media/biglobby.jpg')
+
+    .slide.able: .cont
+      h2 Unofficial Mod: Corpse Delimiter
+      img(src='./media/corpsedelim.jpg')
+
+    .slide.able: .cont
+      h2 Exploit: Lag Switching/DoS in Destiny 2
+      img(src='./media/destiny2.jpg')
+
+    .slide.able: .cont
+      h2 Cheats in Counter-Strike: Global Offensive
+      img(src='./media/csgocheat.png')
+
+    .slide: .cont
+      h2 Some Cheats in CS:GO
+      hr
+      ul
+        li Aimbot
+        li Wallhack
+        li Spinbot
+        li Bhop Scripts
+        li Ragehack
+        li Lag Switching
+
+    .slide.able: .cont
+      h2 Forsaken's word.exe
+      img(src='./media/forsaken.gif')
+
+    .slide.able: .cont
+      h2 Gift Wrap Scam in Team Fortress 2
+      img(src='./media/giftwrap.png')
+
+    .slide.able: .cont
+      h2 Casinos and MLMs in Habbo Hotel
+      img(src='./media/habbocasino.jpg')
+
+    .slide.able: .cont
+      h2 Stream Sniping
+      img(src='./media/ninja.png')
+
+    .slide.able: .cont
+      h2 Swatting
+      img(src='./media/swat.png')
+
+    .slide.able: .cont
+      h2 Punishing Cheating: FaZe Jarvis
+      img(src='./media/jarvis.jpg')
+
+    .slide: .cont
+      h2 Deterrence/Prevention Tactics
+      hr
+      ul
+        li Reporting Systems
+        li Save Data Checking
+        li Streamer Mode
+        li DRM
+        li Frequent Patches
+        li Anti-Cheat
+
+    .slide: .cont
+      h1 T H A N K S
+
+    script(src='./js/jquery.min.js')
     script(src='./main.js')
